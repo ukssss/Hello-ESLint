@@ -1,3 +1,8 @@
+/**
+ * @type {import('eslint').Linter.Config}
+ */
+
+
 module.exports = {
     // eslint의 동작환경을 지정
     'env': {
