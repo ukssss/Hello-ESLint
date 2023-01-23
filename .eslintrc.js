@@ -12,6 +12,11 @@ module.exports = {
     },
     // 기본적인 룰셋을 지정
     extends: 'eslint:recommended',
+
+    // 함수형 프로그래밍 룰 적용
+    // extends: ['eslint:recommended', 'plugin:functional/recommended'],
+    // plugins: ['functional'],
+
     // 특정 파일에만 다른 룰을 지정
     overrides: [],
       // 사용환경을 최신 자바스트립트로 가정
